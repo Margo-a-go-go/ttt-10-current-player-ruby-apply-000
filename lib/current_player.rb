@@ -5,6 +5,7 @@ def turn_count(board)
       counter += 1
     elsif space = "0"
       counter += 1
-    else  
+    else
+      counter
   end
 end
